@@ -19,4 +19,14 @@ const Profile = ({ user }) => (
   </div>
 )
 
+Profile.prototypes = {
+  user: PropTypes.shape({
+    avatar: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+    tag: PropTypes.string.isRequired,
+    location: PropTypes.string.isRequired,
+    stats: PropTypes.object.isRequired
+  })
+}
+
 export default Profile;
