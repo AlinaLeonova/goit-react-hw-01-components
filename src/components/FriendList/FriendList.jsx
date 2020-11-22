@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import style from './FriendList.module.css';
-import FriendItem from '../Friend-item/FriendItem'
+import FriendItem from './Friend-item/FriendItem'
 
 const FriendList = ({ friends }) => (
   <ul className={style.friendsList}>

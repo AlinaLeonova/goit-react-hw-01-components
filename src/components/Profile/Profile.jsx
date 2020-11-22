@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Profile.module.css';
-import StatsItem from '../StatsItem/Stats';
+import StatsItem from './StatsItem/Stats';
 import PropTypes from 'prop-types';
 
 const Profile = ({ user }) => (
