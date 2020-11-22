@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/AlinaLeonova/goit-react-hw-01-components/static/css/main.b3c2e43f.chunk.css",
+    "main.js": "/AlinaLeonova/goit-react-hw-01-components/static/js/main.944207a2.chunk.js",
+    "main.js.map": "/AlinaLeonova/goit-react-hw-01-components/static/js/main.944207a2.chunk.js.map",
+    "runtime-main.js": "/AlinaLeonova/goit-react-hw-01-components/static/js/runtime-main.c19a83ea.js",
+    "runtime-main.js.map": "/AlinaLeonova/goit-react-hw-01-components/static/js/runtime-main.c19a83ea.js.map",
+    "static/js/2.49da7363.chunk.js": "/AlinaLeonova/goit-react-hw-01-components/static/js/2.49da7363.chunk.js",
+    "static/js/2.49da7363.chunk.js.map": "/AlinaLeonova/goit-react-hw-01-components/static/js/2.49da7363.chunk.js.map",
+    "index.html": "/AlinaLeonova/goit-react-hw-01-components/index.html",
+    "static/css/main.b3c2e43f.chunk.css.map": "/AlinaLeonova/goit-react-hw-01-components/static/css/main.b3c2e43f.chunk.css.map",
+    "static/js/2.49da7363.chunk.js.LICENSE.txt": "/AlinaLeonova/goit-react-hw-01-components/static/js/2.49da7363.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c19a83ea.js",
+    "static/js/2.49da7363.chunk.js",
+    "static/css/main.b3c2e43f.chunk.css",
+    "static/js/main.944207a2.chunk.js"
+  ]
+}
