@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import style from './FriendItem.module.css'
 
-const FriendItem = ({ arr }) => (
+const FriendItem = ({ friend }) => (
   <li className={style.item}>
-    <span className={arr.isOnline ? style.statusIsGreen : style.statusIsRed}>{arr.isOnline}</span>
-    <img className={style.avatar} src={arr.avatar} alt="" width="48" />
-    <p className={style.name}>{arr.name}</p>
+    <span className={friend.isOnline ? style.statusOnline : style.statusOffline}>{friend.isOnline}</span>
+    <img className={style.avatar} src={friend.avatar} alt="" width="48" />
+    <p className={style.name}>{friend.name}</p>
   </li>
 )
 

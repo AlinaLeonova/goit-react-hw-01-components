@@ -5,7 +5,7 @@ import FriendItem from './Friend-item/FriendItem'
 
 const FriendList = ({ friends }) => (
   <ul className={style.friendsList}>
-    {friends.map(el => (<FriendItem key={el.id} arr={el} />
+    {friends.map(el => (<FriendItem key={el.id} friend={el} />
     ))}
   </ul>
 )
